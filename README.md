@@ -47,7 +47,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
 3. Import About.css file and profile picture in your About.js file like so 
     ```
     import "./About.css";
-    import <profile_pic_name> from "../assets/profile_pic_name.jpg";
+    import <profile_pic_name> from ../assets/profile_pic_name.jpg";
     ```
 ### TO-DO List APP
 1. Navigate to `src/components/AddTodo.js` and `src/components/todos.js`
@@ -81,7 +81,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
   + Inside the constructor(), create a list with the name `todos`
   + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:
     + `<Todos todos={make your change } />`. Hint: return current todo list state. Remember to use the `this` keyword
-    + `<AddTodo addTodo={make your change} />`. Hint: call addTodo() function. Remember to use the `this` keyword
+    + `<Todos todos={make your change } />`. Hint: call addTodo() function. Remember to use the `this` keyword
 
 
 ## Testing
